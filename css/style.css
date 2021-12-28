@@ -1,0 +1,53 @@
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+  #navbar {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  nav ul {
+    display: flex;
+    margin-right: 2rem;
+    text-decoration: none;
+  }
+
+  nav ul li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    text-decoration: none;
+  }
+
+nav ul li a {
+    display: block;
+    font-size: 2.2rem;
+    padding: 2rem;
+
+}
+  
+
+  #welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;     
+  }
+
+  #projects {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+}
+
+.project-tile {
+    margin: auto;
+}
